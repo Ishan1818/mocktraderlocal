@@ -1,0 +1,16 @@
+[package]
+name = "tradeverse-desktop"
+version = "1.0.0"
+description = "TRADEVERSE local participant shell"
+authors = ["TRADEVERSE"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+
+[lib]
+name = "tradeverse_desktop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "TRADEVERSE",
+  "version": "1.0.0",
+  "identifier": "com.tradeverse.local",
+  "build": {
+    "beforeDevCommand": "node ../launcher.mjs participant",
+    "devUrl": "http://127.0.0.1:3000/terminal",
+    "beforeBuildCommand": "",
+    "frontendDist": "../../frontend/out"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "TRADEVERSE",
+        "width": 1280,
+        "height": 800,
+        "url": "http://127.0.0.1:3000/terminal"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": []
+  }
+}

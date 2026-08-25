@@ -1,0 +1,15 @@
+{
+  "name": "tradeverse-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TRADEVERSE local desktop launcher (participant + organizer)",
+  "scripts": {
+    "participant": "node launcher.mjs participant",
+    "organizer": "node launcher.mjs organizer",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0"
+  }
+}

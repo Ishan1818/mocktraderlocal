@@ -1,0 +1,80 @@
+{
+  "sectors": [
+    {"slug": "financials", "name": "Financials", "display_order": 1},
+    {"slug": "it", "name": "IT", "display_order": 2},
+    {"slug": "automobiles", "name": "Automobiles", "display_order": 3},
+    {"slug": "energy", "name": "Energy", "display_order": 4},
+    {"slug": "industrials", "name": "Industrials", "display_order": 5},
+    {"slug": "infrastructure", "name": "Infrastructure", "display_order": 6},
+    {"slug": "real_estate", "name": "Real Estate", "display_order": 7},
+    {"slug": "metals", "name": "Metals", "display_order": 8},
+    {"slug": "consumer", "name": "Consumer", "display_order": 9}
+  ],
+  "tradable_stocks": [
+    {"ticker": "AXISBANK", "company_name": "Axis Bank", "sector_slug": "financials", "starting_price": 280.00, "volatility_class": "high"},
+    {"ticker": "HDFCBANK", "company_name": "HDFC Bank", "sector_slug": "financials", "starting_price": 220.00, "volatility_class": "high"},
+    {"ticker": "ICICIBANK", "company_name": "ICICI Bank", "sector_slug": "financials", "starting_price": 180.00, "volatility_class": "very_high"},
+    {"ticker": "PNB", "company_name": "Punjab National Bank", "sector_slug": "financials", "starting_price": 650.00, "volatility_class": "high"},
+    {"ticker": "SBIN", "company_name": "State Bank of India", "sector_slug": "financials", "starting_price": 1200.00, "volatility_class": "high"},
+
+    {"ticker": "HCLTECH", "company_name": "HCL Technologies", "sector_slug": "it", "starting_price": 180.00, "volatility_class": "medium"},
+    {"ticker": "INFOSYSTCH", "company_name": "Infosys", "sector_slug": "it", "starting_price": 1400.00, "volatility_class": "medium"},
+    {"ticker": "SATYAMCOMP", "company_name": "Satyam Computer", "sector_slug": "it", "starting_price": 350.00, "volatility_class": "high"},
+    {"ticker": "TCS", "company_name": "Tata Consultancy", "sector_slug": "it", "starting_price": 850.00, "volatility_class": "medium"},
+    {"ticker": "WIPRO", "company_name": "Wipro", "sector_slug": "it", "starting_price": 240.00, "volatility_class": "medium"},
+
+    {"ticker": "BAJAJAUTO", "company_name": "Bajaj Auto", "sector_slug": "automobiles", "starting_price": 2100.00, "volatility_class": "high"},
+    {"ticker": "HEROHONDA", "company_name": "Hero Honda", "sector_slug": "automobiles", "starting_price": 850.00, "volatility_class": "high"},
+    {"ticker": "MARUTI", "company_name": "Maruti Motors", "sector_slug": "automobiles", "starting_price": 950.00, "volatility_class": "high"},
+    {"ticker": "M&M", "company_name": "Mahindra & Mahindra", "sector_slug": "automobiles", "starting_price": 680.00, "volatility_class": "high"},
+    {"ticker": "TATAMOTORS", "company_name": "Tata Motors", "sector_slug": "automobiles", "starting_price": 720.00, "volatility_class": "high"},
+
+    {"ticker": "BPCL", "company_name": "Bharat Petroleum", "sector_slug": "energy", "starting_price": 380.00, "volatility_class": "medium"},
+    {"ticker": "GAIL", "company_name": "GAIL India", "sector_slug": "energy", "starting_price": 340.00, "volatility_class": "medium"},
+    {"ticker": "NTPC", "company_name": "NTPC", "sector_slug": "energy", "starting_price": 180.00, "volatility_class": "low"},
+    {"ticker": "ONGC", "company_name": "ONGC", "sector_slug": "energy", "starting_price": 1100.00, "volatility_class": "medium"},
+    {"ticker": "RELIANCE", "company_name": "Reliance Energy", "sector_slug": "energy", "starting_price": 2100.00, "volatility_class": "high"},
+    {"ticker": "TATAPOWER", "company_name": "Tata Power", "sector_slug": "energy", "starting_price": 180.00, "volatility_class": "medium"},
+    {"ticker": "RPETRO", "company_name": "Reliance Petroleum", "sector_slug": "energy", "starting_price": 120.00, "volatility_class": "high"},
+
+    {"ticker": "ABB", "company_name": "ABB India", "sector_slug": "industrials", "starting_price": 920.00, "volatility_class": "high"},
+    {"ticker": "BHEL", "company_name": "BHEL", "sector_slug": "industrials", "starting_price": 2100.00, "volatility_class": "high"},
+    {"ticker": "LT", "company_name": "Larsen & Toubro", "sector_slug": "industrials", "starting_price": 4200.00, "volatility_class": "high"},
+    {"ticker": "SIEMENS", "company_name": "Siemens", "sector_slug": "industrials", "starting_price": 780.00, "volatility_class": "high"},
+
+    {"ticker": "GMRINFRA", "company_name": "GMR Infra", "sector_slug": "infrastructure", "starting_price": 45.00, "volatility_class": "very_high"},
+    {"ticker": "JPASSOCIAT", "company_name": "Jaiprakash Associates", "sector_slug": "infrastructure", "starting_price": 220.00, "volatility_class": "very_high"},
+
+    {"ticker": "UNITECH", "company_name": "Unitech", "sector_slug": "real_estate", "starting_price": 420.00, "volatility_class": "very_high"},
+
+    {"ticker": "HINDALCO", "company_name": "Hindalco", "sector_slug": "metals", "starting_price": 180.00, "volatility_class": "very_high"},
+    {"ticker": "SAIL", "company_name": "SAIL", "sector_slug": "metals", "starting_price": 580.00, "volatility_class": "very_high"},
+    {"ticker": "TATASTEEL", "company_name": "Tata Steel", "sector_slug": "metals", "starting_price": 620.00, "volatility_class": "very_high"},
+    {"ticker": "STER", "company_name": "Sterlite Industries", "sector_slug": "metals", "starting_price": 520.00, "volatility_class": "very_high"},
+    {"ticker": "NATIONALUM", "company_name": "National Aluminium", "sector_slug": "metals", "starting_price": 240.00, "volatility_class": "very_high"},
+
+    {"ticker": "ITC", "company_name": "ITC", "sector_slug": "consumer", "starting_price": 180.00, "volatility_class": "low"}
+  ],
+  "ipo_definitions": [
+    {"ipo_key": "ipo_fch", "ticker": "FCH", "company_name": "Future Capital", "sector_slug": "financials", "issue_price": 765, "lot_size": 18, "total_lots": 800, "winning_lots": 200, "maximum_lots_per_user": 2, "open_time": "00:30", "allotment_time": "00:36", "listing_time": "00:37"},
+    {"ipo_key": "ipo_rpower", "ticker": "RPOWER", "company_name": "Reliance Power", "sector_slug": "infrastructure", "issue_price": 450, "lot_size": 30, "total_lots": 1000, "winning_lots": 250, "maximum_lots_per_user": 2, "open_time": "00:38", "allotment_time": "00:40", "listing_time": "00:41"},
+    {"ipo_key": "ipo_jkil", "ticker": "JKIL", "company_name": "J Kumar Infra", "sector_slug": "infrastructure", "issue_price": 110, "lot_size": 50, "total_lots": 800, "winning_lots": 200, "maximum_lots_per_user": 2, "open_time": "01:10", "allotment_time": "01:16", "listing_time": "01:17"},
+    {"ipo_key": "ipo_cordscable", "ticker": "CORDSCABLE", "company_name": "Cords Cable", "sector_slug": "industrials", "issue_price": 135, "lot_size": 40, "total_lots": 600, "winning_lots": 150, "maximum_lots_per_user": 2, "open_time": "01:18", "allotment_time": "01:20", "listing_time": "01:21"},
+    {"ipo_key": "ipo_20microns", "ticker": "20MICRONS", "company_name": "20 Microns", "sector_slug": "metals", "issue_price": 55, "lot_size": 100, "total_lots": 500, "winning_lots": 150, "maximum_lots_per_user": 2, "open_time": "02:56", "allotment_time": "02:58", "listing_time": "02:59"}
+  ],
+  "dissolution_events": [
+    {"time": "01:55", "ticker": "ICICIBANK", "liquidation_price": 8, "headline": "ICICI Bank dissolved (fictional in-game event)"}
+  ],
+  "phases": [
+    {"name": "PHASE 1 — EUPHORIA", "start_sec": 0, "end_sec": 2400, "pulse_bias_per_tick": 0.00015},
+    {"name": "PHASE 2 — CRACKS / DENIAL", "start_sec": 2400, "end_sec": 4800, "pulse_bias_per_tick": -0.00005},
+    {"name": "PHASE 3 — CRASH", "start_sec": 4800, "end_sec": 9600, "pulse_bias_per_tick": -0.0002},
+    {"name": "PHASE 4 — RECOVERY", "start_sec": 9600, "end_sec": 10800, "pulse_bias_per_tick": 0.0001}
+  ],
+  "sim_duration_sec": 10800,
+  "default_starting_capital": 500000.0,
+  "max_position_per_stock": 100,
+  "default_tick_size": 0.05,
+  "default_circuit_pct": 0.10,
+  "default_simulation_seed": 42
+}
